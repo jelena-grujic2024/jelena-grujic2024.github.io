@@ -1,0 +1,107 @@
+h1{
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: inherit;
+  color: black;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: full-width;
+  background-color: #8ca6bf;
+  color: black;
+}
+header{
+  padding: 5px;
+  text-align: center;
+  background-color: #a0afbd;
+  background-image: url(slike/notioncover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+  position:absolute;
+  float: left;
+  width: 20%;
+  background-color: #8ca6bf;
+  height: 86%;
+}
+nav ul{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+nav li a{
+  display: block;
+  padding: 40px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid black;
+  }
+section li a{
+  color: black;
+  text-decoration: none;
+}
+nav li {
+  padding: 5px;
+}
+nav li:hover{
+  background-color: #dcff8a;
+}
+section{
+  position:absolute;
+  padding: 10px;
+  margin-left: 20%;
+  width: 80%;
+  background-color: #b8cad1;
+  height:86%;
+}
+footer{
+  position:fixed;
+  /* float: left; */
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-image: url(slike/notioncover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0px;
+}
+
+h3{
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: inherit;
+  color: black;
+}
+table, th, td{
+  border: 2px solid black ;
+  }
+*{
+  box-sizing: border-box;
+}
+
+.sizifus {
+  float: right;
+  margin-left: 15px;
+}
+.slikamene {
+  float:right;
+  margin-right: 30px;
+}
+.kamus {
+  float: right;
+  margin-left: 20px;
+}
+.kjer {
+  float: left;
+  margin-right: 25px;
+}
